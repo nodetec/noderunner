@@ -1,0 +1,206 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+nav:
+  - Home:
+      - Introduction: index.md
+      - Why Run a Node?: why-run-a-node.md
+      - Bitcoin Clients: bitcoin-clients.md
+      - Resources: resources.md
+      - FAQ: faq.md
+
+  - PC/Laptop:
+      - Introduction: pc/index.md
+      - Hardware: pc/hardware.md
+      - Operating System:
+          - Linux: pc/linux.md
+          - MacOS: pc/macos.md
+          - Windows: pc/windows.md
+
+  - RPi 4:
+      - Introduction: rpi4/01-index.md
+      - Hardware: rpi4/02-hardware.md
+      - System:
+          - Operating System: rpi4/03-os.md
+          - Remote Access: rpi4/04-remote-access.md
+          - Firewall: rpi4/05-firewall.md
+          - Intrusion Detection: rpi4/06-intrusion-detection.md
+          - Denial of Service: rpi4/denial-of-service.md
+          - Reverse Proxy: rpi4/reverse-proxy.md
+          - Disable Wireless: rpi4/disable-wireless.md
+          - Tor: rpi4/tor.md
+      - Bitcoin:
+          - Client: rpi4/bitcoin-client.md
+          - Download: rpi4/bitcoin-download.md
+          - Verify: rpi4/bitcoin-verify.md
+          - Extract: rpi4/bitcoin-extract.md
+          - Install: rpi4/bitcoin-install.md
+          - Bitcoin User: rpi4/bitcoin-user.md
+          - Configuration: rpi4/bitcoin-configuration.md
+          - Bitcoin Service: rpi4/bitcoin-service.md
+          - Bitcoin CLI: rpi4/bitcoin-cli.md
+          - Upgrade: rpi4/bitcoin-upgrade.md
+      - Ligtning:
+          - Client: rpi4/lightning-client.md
+          - Channel Backup: rpi4/lightning-channel-backup.md
+          - Web Interface: rpi4/lightning-web-interface.md
+          - Mobile Wallet: rpi4/lightning-mobile-wallet.md
+
+  - RPi 5:
+      - Introduction: rpi5/index.md
+      - Hardware: rpi5/hardware.md
+      - System:
+          - Operating System: rpi5/os.md
+          - Remote Access: rpi5/remote-access.md
+          - Firewall: rpi5/firewall.md
+          - Intrusion Detection: rpi5/intrusion-detection.md
+          - Denial of Service: rpi5/denial-of-service.md
+          - Reverse Proxy: rpi5/reverse-proxy.md
+          - Disable Wireless: rpi5/disable-wireless.md
+          - Tor: rpi5/tor.md
+      - Bitcoin:
+          - Client: rpi5/bitcoin-client.md
+          - Download: rpi5/bitcoin-download.md
+          - Verify: rpi5/bitcoin-verify.md
+          - Extract: rpi5/bitcoin-extract.md
+          - Install: rpi5/bitcoin-install.md
+          - Bitcoin User: rpi5/bitcoin-user.md
+          - Configuration: rpi5/bitcoin-configuration.md
+          - Bitcoin Service: rpi5/bitcoin-service.md
+          - Bitcoin CLI: rpi5/bitcoin-cli.md
+          - Upgrade: rpi5/bitcoin-upgrade.md
+      - Ligtning:
+          - Client: rpi5/lightning-client.md
+          - Channel Backup: rpi5/lightning-channel-backup.md
+          - Web Interface: rpi5/lightning-web-interface.md
+          - Mobile Wallet: rpi5/lightning-mobile-wallet.md
+
+  - Mini PC:
+      - Introduction: mini-pc/index.md
+      - Hardware: mini-pc/hardware.md
+      - System:
+          - Operating System: mini-pc/os.md
+          - Remote Access: mini-pc/remote-access.md
+          - Firewall: mini-pc/firewall.md
+          - Intrusion Detection: mini-pc/intrusion-detection.md
+          - Denial of Service: mini-pc/denial-of-service.md
+          - Reverse Proxy: mini-pc/reverse-proxy.md
+          - Disable Wireless: mini-pc/disable-wireless.md
+          - Tor: mini-pc/tor.md
+      - Bitcoin:
+          - Client: mini-pc/bitcoin-client.md
+          - Download: mini-pc/bitcoin-download.md
+          - Verify: mini-pc/bitcoin-verify.md
+          - Extract: mini-pc/bitcoin-extract.md
+          - Install: mini-pc/bitcoin-install.md
+          - Bitcoin User: mini-pc/bitcoin-user.md
+          - Configuration: mini-pc/bitcoin-configuration.md
+          - Bitcoin Service: mini-pc/bitcoin-service.md
+          - Bitcoin CLI: mini-pc/bitcoin-cli.md
+          - Upgrade: mini-pc/bitcoin-upgrade.md
+      - Ligtning:
+          - Client: mini-pc/lightning-client.md
+          - Channel Backup: mini-pc/lightning-channel-backup.md
+          - Web Interface: mini-pc/lightning-web-interface.md
+          - Mobile Wallet: mini-pc/lightning-mobile-wallet.md
+
+  - Prebuilt:
+      - Introduction: prebuilt/index.md
+      - Companies:
+          - Start9: prebuilt/start9.md
+          - Umbrel: prebuilt/umbrel.md
+          - MyNode: prebuilt/mynode.md
+
+  - Donate:
+      - bitcoin: donate/index.md
+
+site_name: Node Runner
+site_url: https://noderunner.org/
+theme:
+  font:
+    # text: Inter
+    code: IBM Plex Mono
+
+  icon:
+    # edit: material/pencil 
+    view: material/eye
+
+  name: material
+  logo: assets/logo_cropped_yellow.png
+  favicon: assets/logo_square_yellow.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      # accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      # accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    # - navigation.footer
+    # - navigation.expand
+    - navigation.path
+    # - navigation.prune
+    # - navigation.top
+    # - navigation.indexes
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
+    # - toc.follow
+    # - toc.integrate
+    - content.code.copy
+    - content.action.edit
+plugins:
+  - search
+  - social
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: false
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@chrisatmachine
+      name: chrisatmachine on Twitter
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@chrisatmachine
+      name: chrisatmachine on YouTube
+    - icon: fontawesome/brands/github
+      link: https://github.com/nodetec
+      name: NODE-TEC on GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/zdKq5brhF9
+      name: NODE-TEC on Discord
+
+repo_url: https://github.com/nodetec/noderunner
+repo_name: NODE-TEC/noderunner
+edit_uri: edit/master/docs/
+
+copyright: Copyright &copy; 2024 NODE-TEC
