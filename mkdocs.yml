@@ -2,8 +2,7 @@
 nav:
   - Home:
       - Introduction: index.md
-      - Why Run a Node?: why-run-a-node.md
-      - Bitcoin Clients: bitcoin-clients.md
+      - Why Run a Node?: why.md
       - Resources: resources.md
       - FAQ: faq.md
 

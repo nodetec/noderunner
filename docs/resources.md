@@ -2,15 +2,24 @@
 
 Clients:
 
-- [Bitcoin Core]()
-- [Bitcoin Knots]()
+- [Bitcoin Core](https://bitcoincore.org/)
+- [Bitcoin Knots](https://bitcoinknots.org/)
 
 Other Guides:
 
-- [Raspibolt]()
-- [RaspiBlitz](https://docs.raspiblitz.org/docs/setup/software-setup/download)
-- [Minibolt]()
+- [Raspibolt](https://raspibolt.org/)
+- [RaspiBlitz](https://raspiblitz.org/)
+- [Minibolt](https://minibolt.info/)
+
+Wallets:
+
+- [Sparrow Wallet](https://sparrowwallet.com/)
 
 Hardware Wallets:
 
-- [Coldcard]()
+- [Coldcard](https://coldcard.com/)
+
+Forums:
+
+- [Bitcointalk](https://bitcointalk.org/)
+- [Stacker News](https://stacker.news/)

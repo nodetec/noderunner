@@ -1,3 +1,4 @@
 .cache
 env
 venv
+.DS_Store

@@ -12,4 +12,4 @@ Cons:
 - Not always on
 - Consumes System Resources
 
-For an in depth guide to running the bitcoin core client on your PC or laptop checkout the Full Node guide at bitcoin.org.
+For an in depth guide to running the bitcoin core client on your PC or laptop checkout the [Full Node guide](https://bitcoin.org/en/full-node) at bitcoin.org.
