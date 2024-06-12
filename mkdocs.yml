@@ -4,6 +4,7 @@ nav:
       - Introduction: index.md
       - Why Run a Node?: why.md
       - Resources: resources.md
+      - Configuration: config.md
       - FAQ: faq.md
 
   - PC/Laptop:
